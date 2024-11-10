@@ -1,8 +1,9 @@
 import type { GPS } from "../types/GPS";
+import { generateRandomNumberId } from "../Utils/generateRandomNumberld";
 import { Spot } from "./Spot";
 import { v4 as uuidv4 } from 'uuid';
 export class Parking{
-    id : string;
+    id : number;
     name: string;
     city_id : number;
     location : GPS;
@@ -13,7 +14,7 @@ export class Parking{
     Spot: Spot[];
 
     constructor(name: string, city_id: number, location: GPS, numberOfSpots: number, hourlyRate: number, opened: boolean = true) {
-        this.id = uuidv4();
+        this.id = generateRandomNumberId();
         this.name = name;
         this.city_id = city_id;
         this.location = location;
