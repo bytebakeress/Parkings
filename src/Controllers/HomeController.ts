@@ -22,7 +22,7 @@ export const HomeController = (c: Context) => {
             <p>
               Save time and money with EuroPark! Enjoy a 100% contactless parking experience for a short or long duration in our car parks in Europe!
             </p>
-             <a href="/parkings">° Our Parkings </a> </br>  <a href="/cities">° Our Cities</a> 
+             <a href="/cities">° Our cities </a> </br>  <a href="/parkings">° Our Car Parks</a> 
           </div>
         </body>
       </html>

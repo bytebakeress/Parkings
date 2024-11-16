@@ -9,4 +9,4 @@ Parkingroute.get('/:id', (c) => {
   });
   
   // Exporter les routes de parking
-  export default Parkingroute;
+  export default Parkingroute; 

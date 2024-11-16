@@ -7,20 +7,20 @@ export class Parking{
     name: string;
     city_id : number;
     location : GPS;
-    numberofspots: number;
+    numberOfSpots: number;
     opened: boolean;
-    hourlyrate: number;
+    hourlyRate: number;
     parklds: number[];
     Spot: Spot[];
 
-    constructor(name: string, city_id: number, location: GPS, numberOfSpots: number, hourlyRate: number, opened: boolean = true) {
-        this.id = generateRandomNumberId();
+    constructor(id : number, name: string, city_id: number, location: GPS, numberOfSpots: number, hourlyRate: number, opened: boolean = true) {
+        this.id = id;
         this.name = name;
         this.city_id = city_id;
         this.location = location;
-        this.numberofspots = numberOfSpots;
+        this.numberOfSpots = numberOfSpots;
         this.opened =opened;
-        this.hourlyrate = hourlyRate;
+        this. hourlyRate = hourlyRate;
         this.parklds = [];
         this.Spot = [];
 }

@@ -1,4 +1,4 @@
-import  sqlite3  from 'sqlite3';
+/*import  sqlite3  from 'sqlite3';
 import { open } from 'sqlite';
 import { City } from "../models/City";
 import { Parking } from "../models/Parking";import {type  GPS } from "../types/GPS";
@@ -21,4 +21,4 @@ import {toSlug} from '../Utils/toSlug';
     new Parking('F', 5, { latitude: 54.9738474, longitude: -1.6131572 }, 60, 2.4),
     new Parking('G', 5, { latitude: 54.9738474, longitude: -1.6131572 }, 90, 3.2),
   ]; export {cities , parkings};
-  
+  */

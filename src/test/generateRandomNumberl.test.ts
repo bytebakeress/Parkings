@@ -1,4 +1,4 @@
-import { generateRandomNumberId } from "../Utils/generateRandomNumberld.ts";
+import { generateRandomNumberId } from "../Utils/generateRandomNumberld";
 
 
 describe('generateRandomNumberId', () => {
